@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: eureka
+  profiles:
+    active: development
+  cloud:
+    config:
+      uri: http://172.16.7.115:5500
