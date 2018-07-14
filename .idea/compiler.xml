@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="configserver" />
         <module name="eureka" />
+        <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="code" target="1.6" />
       <module name="configserver" target="1.8" />
       <module name="eureka" target="1.6" />
+      <module name="zuul" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

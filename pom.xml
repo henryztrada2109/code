@@ -19,6 +19,7 @@
     <modules>
         <module>configserver</module>
         <module>eureka</module>
+        <module>zuul</module>
     </modules>
 
 </project>
