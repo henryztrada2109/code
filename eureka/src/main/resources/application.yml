@@ -1,18 +1,3 @@
 spring:
   application:
     name: eureka
-#eureka:
-  #instance:
-    #hostname: localhost
-  #client:
-    #registerWithEureka: false
-    #fetchRegistry: false
-
-#server:
-  #port: 1111
-
-#spring:
-  #application:
-    #name: eureka
-  #thymeleaf:
-    #enabled: false
