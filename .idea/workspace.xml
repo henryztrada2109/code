@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aabe6adf-ef14-4260-8647-be17899e0001" name="Default" comment="">
+    <list default="true" id="aabe6adf-ef14-4260-8647-be17899e0001" name="Default" comment="Cambios generales">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/configserver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/configserver.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/eureka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/zuul.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,7 +53,7 @@
           <entry key="java" value="3" />
           <entry key="txt" value="3" />
           <entry key="xml" value="2" />
-          <entry key="yml" value="10" />
+          <entry key="yml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -66,23 +61,35 @@
           <entry key="JAVA" value="3" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="XML" value="2" />
-          <entry key="YAML" value="10" />
+          <entry key="YAML" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="txt" value="17" />
           <entry key="yml" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="17" />
           <entry key="YAML" value="54" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -110,8 +117,8 @@
         <option value="$PROJECT_DIR$/zuul/src/main/docker/Dockerfile" />
         <option value="$PROJECT_DIR$/zuul/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml" />
       </list>
     </option>
@@ -167,6 +174,32 @@
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -183,7 +216,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535830079793" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535830091215" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -362,7 +395,7 @@
       <workItem from="1535478096717" duration="478000" />
       <workItem from="1535595472057" duration="689000" />
       <workItem from="1535599292357" duration="952000" />
-      <workItem from="1535811156089" duration="1886000" />
+      <workItem from="1535811156089" duration="2245000" />
     </task>
     <task id="LOCAL-00001" summary="Servidor Zuul">
       <created>1531600330413</created>
@@ -385,16 +418,30 @@
       <option name="project" value="LOCAL" />
       <updated>1531761389803</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cambios generales">
+      <created>1535830012889</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535830012889</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Cambios generales">
+      <created>1535830087111</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535830087111</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49137000" />
+    <option name="totallyTimeSpent" value="49496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="712" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1453958" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1453958" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -404,7 +451,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5812395" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5812395" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -440,7 +487,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Servidor Zuul" />
     <MESSAGE value="Direccion Byte" />
-    <option name="LAST_COMMIT_MESSAGE" value="Direccion Byte" />
+    <MESSAGE value="Cambios generales" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios generales" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -503,22 +551,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/banner.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zuul/src/main/docker/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
@@ -541,6 +575,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/configserver/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -550,15 +605,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configserver/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
