@@ -5,4 +5,4 @@ spring:
     active: development
   cloud:
     config:
-      uri: http://localhost:5500
+      uri: ${uri.config:http://config-server:5500}
